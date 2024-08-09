@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Mina:wght@400;700&family=Noto+Serif+Bengali:wght@100..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -122,3 +122,5 @@ input.err {
   border-radius: 4px;
   background: #fff;
 }
+
+
