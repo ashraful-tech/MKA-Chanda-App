@@ -6,7 +6,8 @@ const selectTipPerPerson2 = document.querySelector('.tip_per_person2 span');
 const data = {
   bill: 0,
   tip: 0,
-  tip2: 0
+  tip2: 0,
+  person : 1
 }
 
 tipCalculator.addEventListener('change', (e) => {
@@ -15,8 +16,8 @@ tipCalculator.addEventListener('change', (e) => {
 
     data[e.target.name] = parseFloat(e.target.value);
 
-    const tip = (data.bill * 1)/3;
-    const tip2 = (data.bill * 2)/3;
+    const tip = (data.bill * 1) / 3;
+    const tip2 = (data.bill * 2) / 3;
 
     let total = data.bill;
     total = total / data.person;
