@@ -6,8 +6,7 @@ const selectTipPerPerson2 = document.querySelector('.tip_per_person2 span');
 const data = {
   bill: 0,
   tip: 0,
-  tip2: 0,
-  person: 1
+  tip2: 0
 }
 
 tipCalculator.addEventListener('change', (e) => {
