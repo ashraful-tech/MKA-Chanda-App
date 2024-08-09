@@ -1,15 +1,4 @@
-/*
- * Title: To Do List CSS file
- * Description: This file has all the styles associated with the To Do App project
- * Author: Sumit Saha ( Learn with Sumit )
- * Date: 12/16/2020
- *
- */
-
- 
-
-
- @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 
 * {
   box-sizing: border-box;
