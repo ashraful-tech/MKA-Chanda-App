@@ -16,8 +16,8 @@ tipCalculator.addEventListener('change', (e) => {
 
     data[e.target.name] = parseFloat(e.target.value);
 
-    const tip = (data.bill * data.tip) / 3;
-    const tip2 = (data.bill * data.tip2) / 3;
+    const tip = (data.bill * 1)/3;
+    const tip2 = (data.bill * 2)/3;
 
     let total = data.bill;
     total = total / data.person;

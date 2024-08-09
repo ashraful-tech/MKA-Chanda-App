@@ -15,8 +15,8 @@ tipCalculator.addEventListener('change', (e) => {
     e.target.classList.remove('err');
     data[e.target.name] = parseFloat(e.target.value);
 
-    const tip = (data.bill * data.tip) / 100;
-    const tip2 = (data.bill * data.tip2) / 100;
+    const tip = (data.bill * .7);
+    const tip2 = (data.bill * .3);
 
     let total = data.bill;
     total = total / data.person;
@@ -38,6 +38,5 @@ tipCalculator.addEventListener('change', (e) => {
 });
 
 const validateInput = input => {
-  alert("Write in English Number format i.e, 1,2,3,4,5..etc");
   return (/^\d+$/).test(input);
 }
