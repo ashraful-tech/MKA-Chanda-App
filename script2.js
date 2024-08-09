@@ -20,15 +20,15 @@ tipCalculator.addEventListener('change', (e) => {
     const tip2 = (data.bill * 2) / 3;
 
     let total = data.bill;
-    total = total / data.person;
+    total = total;
     total = total.toFixed(2);
     selectTotal.textContent = total;
 
-    let tip_per_person = tip / data.person;
+    let tip_per_person = tip ;
     tip_per_person = tip_per_person.toFixed(2);
     selectTipPerPerson.textContent = tip_per_person;
    
-    let tip_per_person2 = tip2 / data.person;
+    let tip_per_person2 = tip2;
     tip_per_person2 = tip_per_person2.toFixed(2);
     selectTipPerPerson2.textContent = tip_per_person2;
 
