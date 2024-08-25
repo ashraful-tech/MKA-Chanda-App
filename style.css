@@ -41,6 +41,7 @@ body>div {
   margin: 0 auto;
   border-radius: 4px;
   background: #fff;
+  
 }
 
 .calculator>div,
@@ -121,6 +122,19 @@ input.err {
   padding: 3px 8px;
   border-radius: 4px;
   background: #fff;
+}
+
+button{
+  transition: 1s;
+}
+
+button:hover{
+  color: #fff;
+  background-color: #42376d;
+}
+
+#mark {
+  font-size: 30px;
 }
 
 
